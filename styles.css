@@ -1,0 +1,340 @@
+body{
+    overflow-x: hidden;
+   margin: 0;
+}
+header{
+    padding: 2%;
+    margin: none;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 10%;
+    background-color: #6394F5;
+}
+.icon{
+    color:white;
+    width: 12%;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.setting{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-img{
+    color: white;
+    width: 20% !important;
+}
+.square{
+    margin-top: -4%;
+    margin-left: -5%;
+    transform: rotate(32deg);
+    width: 7%;
+    height: 100px;
+    background-color: #6394F5;
+}
+.square-two{
+    margin-top: -6%;
+    margin-left: 98%;
+    transform: rotate(-32deg);
+    width: 6%;
+    height: 100px;
+    background-color: #6394F5;
+}
+.first-section{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 7px solid #6394F5;
+}
+.wrapper , .wrapper-two, .wrapper-three , .wrapper-four {
+    border: 7px solid #0069FF;
+    border-radius: 25px;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    background-color: #6394F5;
+
+}
+.border{
+    padding: 2%;
+    width: 32%;
+    border: 4px solid white;
+}
+.big-sphere{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height:15rem;
+    border: 7px solid goldenrod;
+    border-radius: 100%;
+}
+.small-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.small-sphere{
+    width: 18%;
+    border: 4px solid goldenrod;
+    height: 4rem;
+    border-radius: 100%;
+}
+.title , .second-title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    background-color: #6394F5;
+    border: 5px solid #FFFFFF;
+    border-radius: 65px;
+    width: 40%;
+    height: 3rem;
+    color: #FFFFFF;
+    font-family: Karla;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-name {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #6394F5;
+    border: 4px solid #FFFFFF;
+    border-radius: 36px;
+    width: 70%;
+    height: 56px;
+    color: #FFFFFF;
+    font-family: Karla;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .diamond{
+    margin-top: -8%;
+    margin-left: -9%;
+    transform: rotate(44deg);
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 7px solid #6394F5;
+}
+.diamond-two{
+    margin-top: -16.3%;
+    margin-left: 93%;
+    transform: rotate(-44deg);
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 7px solid #6394F5;
+}
+.build{
+    margin-bottom: 2%;
+    padding: 2%;
+    border: 4px solid white;
+    border-radius: 25px;
+}
+.profile{
+    margin-top: -6%;
+    border: 4px solid goldenrod;
+    width: 16%;
+    height: 10rem;
+    border-radius: 100%;
+}
+.small-circle{
+    margin-top: auto;
+    width: 6%;
+    border: 4px solid goldenrod;
+    height: 4rem;
+    border-radius: 100%;
+}
+.align{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
+    background-color: grey;
+    border: 4px solid grey;
+    width: 8%;
+    height: 6rem;
+}
+.build-name{
+    margin-left: 32%;
+    color: #FFFFFF;
+    font-family: Karla;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.wrapper-two , .wrapper-three{
+    margin-top: 8%;
+    border: 7px solid #0069FF;
+    border-radius: 25px;
+}
+.second-section , .third-section{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 7px solid #6394F5;
+}
+.second-title{
+    border-color: goldenrod;
+    color: goldenrod;
+    background-color: #FFFFFF;
+}
+.circle{
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25rem;
+    width: 40%;
+    border: 6px solid goldenrod;
+    border-radius: 100%;
+}
+.circle-aligner{
+    margin-bottom: 5%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub-circle{
+    width: 12%;
+    height: 8rem;
+    border: 4px solid goldenrod;
+    border-radius: 100%;
+}
+.different-sections{
+    height: 10rem;
+    border-bottom: 5px solid #FFFFFF;
+}
+.wrapper-three{
+    padding: 0;
+    margin-bottom: 0;
+}
+.credit-one{
+    margin-left: -18%;
+    transform: rotate(66deg);
+    width: 301px;
+    background-color: #6394F5;
+}
+.credit-two{
+    margin-left: 94%;
+    transform: rotate(-71deg);
+    width: 301px;
+    background-color: #6394F5;
+}
+.wrapper-four{
+    margin-bottom: 0;
+    padding-bottom: 20%;
+}
+.third-section{
+    border-bottom: none;
+
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+    .diamond , .diamond-two ,.square ,.square-two{
+        display: none;
+    }
+    header{
+        margin-bottom: 7%;
+    }
+    .title ,.second-title{
+        border: 2px solid white;
+        width: 50%;
+        height: 1.5rem;
+        font-size: 16px;
+    }
+    .border{
+        border: 2px solid #FFFFFF;
+    }
+    .logo{
+        width: 233%;
+        margin-left: -65%;
+    }
+    .menu{
+        width: 62%;
+        margin-top: 5%;
+    }
+    .icon{
+        width: 30%;
+    }
+    .big-sphere{
+        border: 4px solid goldenrod;
+        height: 6rem;
+    }
+    .small-sphere{
+        width: 24%;
+        height: 2rem;
+    }
+    .hero-name{
+        border: 2px solid white;
+        height: 1.5rem;
+        font-size: 12px;
+        width: 92%;
+        margin-top: 1rem;
+    }
+    .first-section , .second-section{
+        border-bottom: none;
+    }
+    .second-title{
+        border-color: goldenrod;
+    }
+    .build-name{
+        font-size: 0.5rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .profile{
+        height: 3rem;
+        border: 2px solid goldenrod;
+    }
+    .item{
+        width: 6%;
+        height: 1.4rem;
+    }
+    .small-circle{
+        height: 1rem;
+        border: 2px solid goldenrod;
+    }
+    .build{
+        border: 2px solid white;
+    }
+    .circle{
+        border: 4px solid goldenrod;
+        height: 11rem;
+        width: 60%;
+    }
+    .sub-circle{
+        border: 2px solid goldenrod;
+        width: 15%;
+        height: 3rem;
+    }
+    .different-sections{
+        height: 4rem;
+        border-bottom: 2px solid white;
+    }
+    .third-section{
+        margin-bottom: 5%;
+    }
+    .credit-icon{
+        width: 20%;
+    }
+    .wrapper{
+        padding: 2%;
+    }
+
+}
