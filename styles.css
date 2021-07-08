@@ -1,4 +1,7 @@
 body{
+    --background: hsl(220, 88%, 67%);;
+    --content: hsl(220, 88%, 67%);;
+    --content-border:hsl(215, 100%, 50%);
     overflow-x: hidden;
    margin: 0;
 }
@@ -9,7 +12,7 @@ header{
     display: grid;
     grid-template-columns: auto auto auto;
     height: 10%;
-    background-color: #6394F5;
+    background-color:var(--background);
 }
 .icon{
     color:white;
@@ -34,7 +37,7 @@ header{
     transform: rotate(32deg);
     width: 7%;
     height: 100px;
-    background-color: #6394F5;
+    background-color: var(--background);
 }
 .square-two{
     margin-top: -6%;
@@ -42,21 +45,21 @@ header{
     transform: rotate(-32deg);
     width: 6%;
     height: 100px;
-    background-color: #6394F5;
+    background-color: var(--background);
 }
 .first-section{
     margin-left: 10%;
     margin-right: 10%;
-    border-bottom: 7px solid #6394F5;
+    border-bottom: 7px solid var(--content);
 }
 .wrapper , .wrapper-two, .wrapper-three , .wrapper-four {
-    border: 7px solid #0069FF;
+    border: 7px solid var(--content-border);
     border-radius: 25px;
     padding: 5%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10%;
-    background-color: #6394F5;
+    background-color: var(--content);
 
 }
 .border{
@@ -86,7 +89,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
-    background-color: #6394F5;
+    background-color: var(--content);
     border: 5px solid #FFFFFF;
     border-radius: 65px;
     width: 40%;
@@ -103,7 +106,7 @@ header{
   .hero-name {
     margin-right: auto;
     margin-left: auto;
-    background-color: #6394F5;
+    background-color: var(--content);
     border: 4px solid #FFFFFF;
     border-radius: 36px;
     width: 70%;
@@ -128,7 +131,7 @@ header{
     width: 200px;
     height: 200px;
     background-color: white;
-    border: 7px solid #6394F5;
+    border: 7px solid var(--content);
 }
 .diamond-two{
     margin-top: -16.3%;
@@ -137,7 +140,7 @@ header{
     width: 200px;
     height: 200px;
     background-color: white;
-    border: 7px solid #6394F5;
+    border: 7px solid var(--content);
 }
 .build{
     margin-bottom: 2%;
@@ -179,13 +182,13 @@ header{
 }
 .wrapper-two , .wrapper-three{
     margin-top: 8%;
-    border: 7px solid #0069FF;
+    border: 7px solid var(--content-border);
     border-radius: 25px;
 }
 .second-section , .third-section{
     margin-left: 10%;
     margin-right: 10%;
-    border-bottom: 7px solid #6394F5;
+    border-bottom: 7px solid var(--content);
 }
 .second-title{
     border-color: goldenrod;
@@ -225,13 +228,13 @@ header{
     margin-left: -18%;
     transform: rotate(66deg);
     width: 301px;
-    background-color: #6394F5;
+    background-color: var(--background);
 }
 .credit-two{
     margin-left: 94%;
     transform: rotate(-71deg);
     width: 301px;
-    background-color: #6394F5;
+    background-color: var(--background);
 }
 .wrapper-four{
     margin-bottom: 0;
