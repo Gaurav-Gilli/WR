@@ -1,0 +1,329 @@
+body{
+    --background: hsl(220, 88%, 67%);;
+    --content: hsl(220, 88%, 67%);;
+    --content-border:hsl(215, 100%, 50%);
+    overflow-x: hidden;
+   margin: 0;
+   background-color: rgb(223, 217, 217);
+}
+header{
+    padding: 2%;
+    margin: none;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 10%;
+    background-color:var(--background);
+}
+.icon{
+    color:white;
+    width: 12%;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.setting{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-img{
+    color: white;
+    width: 20% !important;
+}
+.location{
+    margin: 2%;
+    color: grey;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.wrapper , .wrapper-two {
+    background-color: var(--background);
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 4px solid black;
+    border-radius: 25px 25px 0 0;
+    border-bottom: none;
+}
+.lane{
+    padding-top: 10%;
+    border: 2px solid black;
+    border-radius: 0 30% 0 30%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 5rem;
+    width: 8rem;
+    margin-bottom: 100%;
+}
+.good-against{
+    padding-top: 10%;
+    border: 2px solid black;
+    border-radius: 0 30% 0 30%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 5rem;
+    width: 160%;
+    margin-left: -28%;
+}
+.hero-pic{
+    background-color: blue;
+    height: 20rem;
+    width: 15rem;
+}
+.role{
+    padding-top: 10%;
+    border: 2px solid black;
+    border-radius: 30% 0 30% 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 5rem;
+    width: 8rem;
+    margin-bottom: 100%;
+}
+.countered-by{
+    padding-top: 10%;
+    border: 2px solid black;
+    border-radius: 30% 0 30% 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 5rem;
+    width: 160%;
+    margin-left: -28%;
+}
+.left-side , .right-side{
+    padding-top: 2%;
+}
+.square-border{
+    width: 40%;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.circle , .circle-two{
+    margin: 2%;
+    height: 4rem;
+    width: 26%;
+    border: 2px solid goldenrod;
+    border-radius: 100%;
+}
+.small-title{
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-align: center;
+}
+.skill{
+    display: flex;
+}
+.wrapper-two{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: none;
+    /* padding: 6% 2% 5% 5% ; */
+    display: block;
+    border-radius: 0 0 0 0;
+}
+.circle-two{
+    border-color: blueviolet;
+    height: 7rem;
+    margin-top: -1%;
+}
+.title , .build-title , .yt-name{
+    border: 2px solid blueviolet;
+    border-radius: 25px;
+    width: 20%;
+    margin: 2% auto 4% auto; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 32px;
+}
+.build{
+    margin-bottom: 2%;
+    padding: 2%;
+    border: 4px solid white;
+    border-radius: 25px;
+}
+.profile{
+    margin-top: -6%;
+    border: 4px solid goldenrod;
+    width: 16%;
+    height: 10rem;
+    border-radius: 100%;
+}
+.small-circle{
+    margin-top: auto;
+    width: 6%;
+    border: 4px solid goldenrod;
+    height: 3rem;
+    border-radius: 100%;
+}
+.align{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
+    background-color: grey;
+    border: 4px solid grey;
+    width: 8%;
+    height: 5rem;
+}
+.build-name{
+    margin-left: 42%;
+    color: #FFFFFF;
+    font-family: Karla;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.skill-lines , .build-lines ,.used-lines,.youtubers , .big-names , .circle-row{
+    display: flex;
+}
+hr{
+    width: 60%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 4%;
+    border-color: blueviolet;
+}
+.build-title{
+    font-size: 24px;
+    width: 30%;
+}
+.hr{
+    width: 40%;
+}
+.used-hr{
+    width: 8%;
+    transform: rotate(90deg);
+}
+.used{
+    margin-top: 4%;
+}
+.second-used-hr{
+    border-right: 2px;
+    border-left: 2px;
+}
+.main-connector{
+    width: 50%;
+}
+.connectors{
+    margin-top: 2.8%;
+}
+.youtubers{
+    justify-content: space-around;
+    padding-top: 9%;
+}
+.circle-row{
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+.wrapper-ender{
+    background-color: var(--background);
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 4px solid black;
+    border-top: none;
+    border-radius: 0 0 25px 25px;
+}
+.credit-one{
+    margin-left: -18%;
+    transform: rotate(66deg);
+    width: 301px;
+    background-color: var(--background);
+}
+.credit-two{
+    margin-left: 94%;
+    transform: rotate(-71deg);
+    width: 301px;
+    background-color: var(--background);
+}
+.wrapper-four{
+    margin-bottom: 0;
+    border: 7px solid var(--content-border);
+    border-radius: 25px;
+    padding: 5%;
+    padding-bottom: 20%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--content);
+}
+.third-section{
+    border-bottom: none;
+
+}
+@media screen and (max-width: 700px) {
+    .square-border {
+        width: 40%;
+        height: 1.5rem;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .lane ,.role{
+        height: 2rem;
+        width: 4rem;
+    }
+    .good-against , .countered-by{
+        height: 2rem;
+        width: 130%;
+    }
+    .circle{
+        height: 1.5rem;
+        width: 26%;
+    }
+    .hero-pic{
+        height: 9rem;
+        width: 6rem;
+    }
+    .small-title{
+        font-size: 8px;
+    }
+    .good-against{
+        width: 120%;
+        margin-left: -18%;
+    }
+    .good-title{
+        margin-top: -18%;
+    }
+    .title{
+        font-size: 16px;
+        width: 28%;
+    }
+    .skill-info{
+        font-size: 9px;
+    }
+    .circle-two{
+        width: 46%;
+        height: 2.5rem;
+        margin-top: 2%;
+    }
+    .build-title{
+        font-size: 12px;
+        width: 54%;
+    }
+    .item{
+        height: 2rem;
+    }
+    .small-circle{
+        height: 1rem;
+    }
+    .profile{
+        height: 6rem;
+        width: 30%;
+    }
+    .connectors{
+        margin-top: 0.8%;
+    }
+    .yt-name{
+        font-size: 16px;
+    }
+    .build-name{
+        font-size: 0.8rem;
+    }
+}
