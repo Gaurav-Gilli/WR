@@ -119,14 +119,12 @@ header{
     width: 16rem;
     height: 18rem;
     overflow: hidden;
-    /* background: white; */
+    background: white;
     /* border: 2px solid black; */
     position: relative;
     /* border-radius: 0 80px 0 0; */
     /* -webkit-clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
   clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px); */
-
-    /* background: linear-gradient(135deg, transparent 30px, #333 0); */
   
 }
 .square img{
@@ -166,15 +164,27 @@ header{
 }
 @media screen and (max-width: 700px) {
     .square{
+      margin: 7px;
         height: 8rem;
-        width: 4.5rem;
-        border-radius: 0 31px 0 0;
+        width: 5.5rem;
+        overflow: hidden;
+        background: #fff;
+        /* border-radius: 0 50px 0 0; */
     }
-    .square:before{
+    /* .square:before{
       border-top: 22px solid white;
     border-left: 18px solid black;
-    }
+    } */
     .dropbtn{
         line-height: 0.5rem;
+    }
+    .square:before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0;
+      border-top: 30px solid white;
+      border-left: 30px solid rgba(0,0,0,0);
+      width: 0;
+      
     }
 }
