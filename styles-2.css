@@ -15,6 +15,36 @@ header{
     height: 10%;
     background-color:var(--background);
 }
+.hero-title{
+    display: flex;
+    justify-content: flex-start;
+    padding: 2%;
+    margin-left: -6%;
+    margin-top: -2%;
+    border: 4px solid black;
+    border-radius: 25px 0 25px 0;
+    width: 84%;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem;
+    background-color: var(--content-border);
+}
+.roles{
+    margin-left: -6%;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    border: 4px solid black;
+    border-radius: 0 0 25px 5px;
+}
+.gif{
+    margin-left: -4%;
+    margin-top: 6%;
+    height: 15rem;
+    width: 36rem;
+    border: 6px solid hsl(215, 97%, 59%);
+}
 .icon{
     color:white;
     width: 12%;
@@ -42,12 +72,12 @@ header{
     background-color: var(--background);
     padding: 2%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-left: 5%;
     margin-right: 5%;
     border: 4px solid black;
-    border-radius: 25px 25px 0 0;
-    border-bottom: none;
+    border-radius: 0 25px 25px 25px;
+    margin-bottom: 5%;
 }
 .lane{
     padding-top: 10%;
@@ -70,9 +100,18 @@ header{
     margin-left: -28%;
 }
 .hero-pic{
+    border: 10px solid hsl(215, 97%, 59%);
+    margin-left: 1%;
+    margin-top: -3%;
     background-color: blue;
-    height: 20rem;
-    width: 15rem;
+    height: 11rem;
+    border-radius: 100%;
+    width: 12rem;
+}
+.hero-description{
+    width: 80%; 
+    margin-top: 4%;
+
 }
 .role{
     padding-top: 10%;
@@ -105,8 +144,9 @@ header{
 }
 .circle , .circle-two{
     margin: 2%;
-    height: 4rem;
-    width: 26%;
+    margin-right: 4%;
+    height: 2rem;
+    width: 30%;
     border: 2px solid goldenrod;
     border-radius: 100%;
 }
@@ -117,19 +157,28 @@ header{
     text-align: center;
 }
 .skill{
-    display: flex;
+    display: block;
 }
 .wrapper-two{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-top: none;
     /* padding: 6% 2% 5% 5% ; */
     display: block;
-    border-radius: 0 0 0 0;
+    border-radius: 25px 25px 0 0;
 }
 .circle-two{
+    border: 6px solid;
     border-color: blueviolet;
-    height: 7rem;
+    height: 10rem;
     margin-top: -1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.skill-info{
+    width: 95%;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
 }
 .title , .build-title , .yt-name{
     border: 2px solid blueviolet;
@@ -228,8 +277,7 @@ hr{
     margin-left: 5%;
     margin-right: 5%;
     border: 4px solid black;
-    border-top: none;
-    border-radius: 0 0 25px 25px;
+    border-radius: 25px 25px 25px 25px;
 }
 .credit-one{
     margin-left: -18%;
