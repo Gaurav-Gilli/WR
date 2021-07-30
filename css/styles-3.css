@@ -117,7 +117,7 @@ header{
   .square {
     margin: 7%;
     width: 16rem;
-    height: 18rem;
+    height: 21rem;
     overflow: hidden;
     background: white;
     /* border: 2px solid black; */
@@ -131,7 +131,34 @@ header{
   width: 100%;
   /* height: auto; */
 }
-
+a{
+  text-decoration: none;
+}
+.hero-name{
+  text-decoration: none;
+  padding-left:5%;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 2;
+  margin-top: -20%;
+  margin-left: 7%;
+  background-color: dimgrey;
+  color: white;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
+  position: relative;
+  width: 85%;
+}
+.hero-name:before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  border-top: 51px solid black;
+  border-left: 30px solid rgba(0,0,0,0);
+  width: 0;
+  
+}
  
 
 .square:before {
@@ -165,8 +192,8 @@ header{
 @media screen and (max-width: 700px) {
     .square{
       margin: 7px;
-        height: 8rem;
-        width: 5.5rem;
+        height: 10rem;
+        width: 7rem;
         overflow: hidden;
         background: #fff;
         /* border-radius: 0 50px 0 0; */
@@ -177,14 +204,36 @@ header{
     } */
     .dropbtn{
         line-height: 0.5rem;
+        padding: 9px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    .grid{
+      grid-template-columns: auto auto;
+    }
+    a{
+      margin-left: auto;
+      margin-right: auto;
     }
     .square:before {
       content: '';
       position: absolute;
       top: 0; right: 0;
-      border-top: 30px solid white;
-      border-left: 30px solid rgba(0,0,0,0);
+      border-top: 18px solid white;
+      border-left: 15px solid rgba(0,0,0,0);
       width: 0;
       
+    }
+    .hero-name{
+      font-size: 16px;
+      line-height: 1.2;
+      margin-left: 5%;
+      width: 89.5%;
+    }
+    .hero-name:before{
+      border-top: 24px solid black;
+    }
+    .search-bar{
+      padding-top: 4px;
     }
 }
